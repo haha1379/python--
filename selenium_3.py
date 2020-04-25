@@ -5,8 +5,8 @@ from lxml import etree
 import time
 #from selenium.webdriver.common.by import by
 
-name = '13550304571'
-passwd = '123456fqp'
+name = '00'
+passwd = '00'
 driver = webdriver.Chrome()
 driver.get('https://auth.dxy.cn/accounts/login')
 time.sleep(5)
