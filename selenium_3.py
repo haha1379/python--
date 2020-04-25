@@ -13,7 +13,7 @@ time.sleep(5)
 current_window_1 = driver.current_window_handle
 print(current_window_1)
 
-button = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div[1]/a[2]/text()')
+button = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div[1]/a[2]/text()')#这个地方一直无法解决，还没有找到合理的办法来模拟登录。明天继续。
 button.click()
 dxname = driver.find_element_by_class_name('username')
 dxname.send_keys(name)
